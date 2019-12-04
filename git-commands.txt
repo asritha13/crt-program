@@ -1,0 +1,82 @@
+    1  git --version
+    2  pwd
+    3  ls
+    4  cd Desktop/
+    5  pwd
+    6  ls
+    7  clear
+    8  cd ..
+    9  pwd
+   10  cd Desktop/
+   11  clear
+   12  ls
+   13  mkdir CRTbatch1
+   14  ls
+   15  clear
+   16  cd CRTbatch1/
+   17  ls
+   18  touch Data.txt
+   19  ls
+   20  cat Data.txt
+   21  clear
+   22  echo "Line 1" >Data.txt
+   23  cat Data.txt
+   24  echo "Line 2" > Data.txt
+   25  cat Data.txt
+   26  echo "Line 3" > Data.txt
+   27  clear
+   28  cat Data.txt
+   29  nano Data.txt
+   30  cat Data.txt
+   31  clear
+   32  nano Data.txt
+   33  nano Data.txt
+   34  cat Data.txt
+   35  clear
+   36  gedit Data.txt
+   37  clear
+   38  git --version
+   39  pwd
+   40  ls
+   41  clear
+   42  mkdir git
+   43  ls
+   44  clear
+   45  git init
+   46  ls
+   47  ls -a
+   48  clear
+   49  git status
+   50  git add Data.txt
+   51  git status
+   52  clear
+   53  git commit -m "First commit"
+   54  git config --global user.email "gopisettiasritha@gmail.com"
+   55  git conig --global user.name "AsrithaGopisetti"
+   56  git config --global user.name "AsrithaGopisetti"
+   57  git config user.email
+   58  git config user.name
+   59  clear
+   60  git commit -m "First commit"
+   61  git status
+   62  clear
+   63  mkdir crt-program
+   64  mkdir remote help
+   65  clear
+   66  git remote help
+   67  clear
+   68  git remote add crt-programm https://github.com/asritha13/crt-program
+   69  git remote show
+   70  git remote --origin
+   71  clear
+   72  git remote -v
+   73  git pull crt-program master
+   74  git remote show
+   75  git pull crt-program master
+   76  clear
+   77  git push -u crt-program
+   78  git push --set-upstream crt-program master
+   79  git push -f --set-upstream crt-program master
+   80  history
+   81  history 80
+   82  history > git-commands.txt
